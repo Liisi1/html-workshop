@@ -5,6 +5,8 @@ body {
     flex-direction: column;
     gap: 3em; /* vahe elementide vahel */
     align-items: center;
+    background-color: azure;
+
 }
 /* #-ga viitame elemendile, millel on selline id */
 #photo {
@@ -32,7 +34,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #D9D9D9;
+    background-color: steelblue;
+    background-image: url("https://images.saatchiart.com/saatchi/1427855/art/8910375/7973743-SMUJKWEC-7.jpg");
     padding: 5em 1.5em 1.5em;
 }
 .icon {
@@ -53,4 +56,14 @@ button {
 button:hover {
     background-color: #C8C6C6;
     cursor: pointer;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 20px;
+    font-family: "Helvetica Neue", sans-serif;
 }
